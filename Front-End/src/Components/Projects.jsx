@@ -6,8 +6,8 @@ export default function NavBar() {
     return (
         <div className="bg-[#1A120B] h-auto">
             <div className='text-4xl text-white ave text-center py-24'>Projects</div>
-            <div className='grid grid-rows-1 md:grid-cols-2 text-white place-items-center'>
-                <div className="max-w-sm rounded-lg shadow mx-12 my-4 bg-[#3C2A21] flex flex-col justify-center items-center h-[600px]">
+            <div className='grid grid-rows-1 md:grid-cols-2 gap-8 text-white place-items-center'>
+                <div className="max-w-sm rounded-lg shadow bg-[#3C2A21] flex flex-col justify-center items-center h-full">
                     <img className="rounded-t-lg p-5 w-56" src={meetup} alt="" />
                     <div className="p-5 text-center">
                         <div className="mb-2 text-2xl font-bold text-white">Meet-Up</div>
@@ -15,7 +15,7 @@ export default function NavBar() {
                         <a href='https://meet-up-gilt.vercel.app/' className="px-3 py-2 text-sm text-center text-[#1A120B] btn-design rounded-md bg-[#D5CEA3]">Visit Website</a>
                     </div>
                 </div>
-                <div className="max-w-sm rounded-lg shadow mx-12 my-4 bg-[#3C2A21] flex flex-col justify-center items-center h-[600px]">
+                <div className="max-w-sm rounded-lg shadow bg-[#3C2A21] flex flex-col justify-center items-center h-full">
                     <img className="rounded-t-lg p-5 w-64" src={amigos} alt="" />
                     <div className="p-5 text-center">
                         <div className="mb-2 text-2xl font-bold text-white">Amigos</div>
@@ -23,7 +23,7 @@ export default function NavBar() {
                         <a href='https://amigos-red.vercel.app' className="px-3 py-2 text-sm text-center text-[#1A120B] btn-design rounded-md bg-[#D5CEA3]">Visit Website</a>
                     </div>
                 </div>
-                <div className="max-w-sm rounded-lg shadow mx-12 my-4 bg-[#3C2A21] h-[600px]">
+                <div className="max-w-sm rounded-lg shadow bg-[#3C2A21] flex flex-col justify-center items-center h-full">
                     <img className="rounded-t-lg invert p-5 w-full" src={INX} alt="" />
                     <div className="p-5 text-center">
                         <div className="mb-2 text-2xl font-bold text-white">InspireX</div>
