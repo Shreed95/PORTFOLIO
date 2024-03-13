@@ -16,7 +16,7 @@ export default function NavBar() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:3500/contactform", {
+        const response = await fetch("https://portfolio-server-omega-eight.vercel.app/contactform", {
             method: "POST",
             body: JSON.stringify(form),
             headers: {
